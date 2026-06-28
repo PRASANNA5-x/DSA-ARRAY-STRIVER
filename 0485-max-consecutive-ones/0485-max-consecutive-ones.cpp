@@ -12,6 +12,8 @@ public:
             else{
                 count = 0;
             }
+             if (count > maxi)
+                maxi = count;
         }
         return maxi;
     }
