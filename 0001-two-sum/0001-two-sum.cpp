@@ -4,7 +4,9 @@ public:
         
         map<int , int> mpp;
 
-        for(int i = 0 ; i < nums.size() ; i++)
+        int n = nums.size();
+
+        for(int i = 0 ; i < n ; i++)
         {
 
             int num = nums[i];
